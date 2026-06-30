@@ -45,6 +45,7 @@ ACP_REGISTRY_MANIFEST = REPO_ROOT / "acp_registry" / "agent.json"
 
 # Auto-extracted from noreply emails + manual overrides
 AUTHOR_MAP = {
+    "neo.assistant2026@gmail.com": "neo-2026",  # PR #14026 salvage (clear input-blocking overlays on interrupt so the CLI doesn't freeze; #13618)
     "cypher@augmentl.com": "Nickperillo",  # PR #8008 salvage (Discord channel-name matching + flush pending sends on shutdown)
     "tenoryang@outlook.com": "MarioYounger",  # PR #9028 salvage (bash/sh heredoc approval, NFKC homograph fold, execute_code CREDS/BEARER/APIKEY env filter)
     "telos@apex-z.com": "telos-oc",  # PR #14353 salvage (propagate custom_providers key_env into ProviderDef.api_key_env_vars; named + bare-custom self-heal paths)
